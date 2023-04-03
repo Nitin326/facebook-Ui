@@ -1,0 +1,248 @@
+.Main {
+    display: flex;
+    max-width: 100% !important;
+    background-color: blue;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Lside {
+    width: 21%;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+    position: fixed;
+    right: 0;
+}
+
+.Rside {
+    width: 21%;
+    left: 0;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 0;
+}
+
+.MainArea {
+    max-width: 58%;
+    justify-content: center;
+    position: absolute;
+    left: 25%;
+    margin-top: 40px;
+}
+
+.Profile {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.Pro {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.7rem;
+    padding-left: 1.4rem;
+}
+
+.Pro>div {
+    margin: 10px;
+}
+
+.concise {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.Profiles {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 550;
+    padding: 10px;
+}
+
+.Profiles>img {
+    border-radius: 10%;
+    width: 30%;
+}
+
+.Contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Contacts {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgba(24, 24, 24, 0.445);
+    padding-left: 1rem;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    padding: 2px 10px;
+    color: rgba(0, 0, 0, 0.765) !important;
+}
+
+.chaticon {
+    display: flex;
+}
+
+.Profilee {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.Profilee>img {
+    border-radius: 80%;
+    width: 10%;
+}
+
+.addStory {
+    display: flex;
+    margin: 20px 0;
+    color: white;
+    font-size: 1.5rem;
+    height: 20rem;
+    justify-content: flex-start;
+    padding-left: 5%;
+}
+
+.Story {
+    width: 170px;
+    margin: 0 10px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    height: 20rem;
+    border-radius: .5rem;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.607), rgba(0, 0, 0, 0.594)), url("../Images/story.jpg");
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.Story p {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0.6rem;
+    font-weight: 600;
+}
+
+.message {
+    display: grid;
+    height: 25rem;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.Post {
+    margin-top: 5%;
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+    background-color: white;
+    margin-left: 0;
+}
+
+input[type=Mind] {
+    width: 80%;
+    margin: 20px 0;
+    padding: 10px;
+    height: 3rem;
+    display: inline;
+    border: none;
+    border-radius: 15px;
+    margin-left: 0;
+    box-sizing: border-box;
+    outline: none;
+    background-color: rgb(238, 243, 245);
+}
+
+.Call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    height: 5rem;
+    width: 90%;
+    background-color: white;
+    font-size: 1rem;
+}
+
+.ico {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+    font-size: 1rem;
+}
+
+.Posted {
+    display: grid;
+    height: auto;
+    width: 90%;
+    align-items: flex-start;
+    background-color: white;
+    margin-left: 0;
+    margin-top: 29px;
+}
+
+.poster {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Simplilearn {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.profile-detail {
+    display: block;
+    margin-top: 7px;
+}
+
+.update-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.update {
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.735);
+}
+
+.edit {
+    margin: 12px;
+}
+
+.caption {
+    font-size: 1rem;
+    font-weight: 400;
+    word-wrap: break-word;
+    padding-left: 4%;
+}
